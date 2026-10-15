@@ -1,0 +1,12 @@
+﻿# idopNetwork dependencies
+
+# Core
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+networkx
+cvxpy          # constrained sparse regression solver used by NetworkReconstructor.IDOPRegressor
+torch          # FunctionalClusterer (FunClu v4 EM kernel)
+PyWavelets     # optional: only needed by QuasiDynamicAnalyzer.swt_denoise (dynamic SWT denoising)
